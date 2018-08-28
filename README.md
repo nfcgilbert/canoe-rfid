@@ -18,3 +18,4 @@
  
 1. I haven't finished the optical design - or even really started. You probably know better how you want this to look anyway. 
 2. Probably due to the way I implemented this, the UI changes can occur slightly delayed. A few apply()s could perhaps improve things.
+3. Some variables could have better names.
