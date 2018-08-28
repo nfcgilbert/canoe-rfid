@@ -4,8 +4,8 @@
 > cordova plugin add cordova-plugin-hce --variable AID_FILTER=F2A731D87C 
 2. For some reason that plugin insists on sending an even number of bytes. The rfid protocol of the pos wasn't made for that, so we need to make a modification to the plugin. Replace HCEPlugin.Java with the uploaded file (/platforms/etc), now it allows for uneven number of bytes. Afaik this must be done after first building for Android. 
 3. The files from above do the following:
- - Implement 2 new views in /www/views and related controllers. rfid-status is to inform the user about errors/outcome, rfid-invoice displays the invoice.
- - Implement rfid logic.
+     - Implement 2 new views in /www/views and related controllers. rfid-status is to inform the user about errors/outcome, rfid-invoice displays the invoice.
+     - Implement rfid logic.
  
 *** About the code ***
  
